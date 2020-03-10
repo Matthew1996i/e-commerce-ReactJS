@@ -1,0 +1,26 @@
+.showcase{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listDisplay{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
+svg.loadingSpinner{
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+}

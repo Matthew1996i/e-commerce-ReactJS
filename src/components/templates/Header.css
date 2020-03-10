@@ -1,0 +1,49 @@
+header.header{
+    background-color: var(--bg-dark);
+    padding: 0px 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header.header h1{
+    font-size: 1.8em;   
+}
+
+header.header p{
+    font-size: large;
+    
+}
+
+.label-cart{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 50vh;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 15px;
+}
+
+.label-cart .buttonCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modalList li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#modalList li button{
+    font-size: 12px;
+}
+
+.question{
+    background-color: var(--bg-dark);
+    
+}
