@@ -2,15 +2,16 @@
 
 OS X & Linux:
 
-```sh
-on the folder project: 
 
+on the folder project: 
+```sh
 cd e-commerce-ReactJS
 
 npm install || yarn install
-
+```
 wait the install the all project
 
+```sh
 npm start || yarn start
 
 ```
